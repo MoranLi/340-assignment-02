@@ -1,0 +1,8 @@
+*Main> consectived "aaasssddd"
+3
+*Main> consectived "aaaaasssddd"
+5
+*Main> consectived "aaaaasssssssddd"
+7
+*Main> consectived "aaaaasssssssddddddddddd"
+11

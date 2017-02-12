@@ -1,0 +1,17 @@
+not true = (\v.\w.\x.(v x w)) true
+         = \w.\x.(true x w)
+         = \w.\x.( \a.\b.(a) x w)
+         = \w.\x.(( \b.(x)) w)
+         = \w.\x.(x)
+         = \x.\y.(y)
+         = false
+and true (not true) = and true false = (\v.\w.(v w v)) true false
+                                     = \v.\w.(true w v) false
+									 = \v.\w.(true false v)
+									 = \v.\w.(\a.\b.(a) \a.\b.(b) v)
+									 = \v.\w.(\a.\b.(\a.\b.(b)) v)
+									 = \v.\w.(\a.\b.(b) v)
+									 = \v.\w.(\b.(w))
+									 = \v.\w.(w)
+									 = \x.\y.(y)
+									 = false

@@ -1,0 +1,4 @@
+*Main> gift sumP (1,2)
+3
+*Main> ungift diffP 2 1
+1

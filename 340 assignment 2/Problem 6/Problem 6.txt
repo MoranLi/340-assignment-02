@@ -1,0 +1,8 @@
+*Main> nshuffle 4 4
+"brbrbrbr"
+*Main> nshuffle 4 6
+"brrbbbrrrbbr"
+*Main> nshuffle 2 6
+"bbrrbbrrbbrr"
+*Main> nshuffle 2 4
+"bbrrbbrr"
